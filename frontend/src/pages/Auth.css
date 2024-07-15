@@ -1,0 +1,87 @@
+/* Auth.css */
+
+/* Global Styles */
+
+    body {
+        background-image: url('3d.avif');
+        background-size: cover; 
+        background-position: absolute; 
+        background-repeat: no-repeat;
+    }
+    
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    background-color:transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+span {
+    margin-top: 10px;
+    display: block;
+    color: #555;
+}
+
+span a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
