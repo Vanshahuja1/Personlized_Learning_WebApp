@@ -1,4 +1,4 @@
-# 🌟 Personalized Learning App
+# 🌟 PadhieLikhie : Personalized Learning App
 
 ## 📚 Overview
 
